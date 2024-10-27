@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Librería</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Logo-muskiz.png" alt="Logo de Muskiz">
+            </div>
+            <div class="menu-icon">
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="menu-btn">☰</label>
+            </div>
+            <ul class="navegador">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="https://www.muskiz.org/es-ES/Paginas/default.aspx" target="_blank">Ayuntamiento</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="login.html" target="_self">Biblioteca</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 class="titulo-buscador">Busca tu libro</h2>
+        <div class="group">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="icon">
+                <g>
+                    <path
+                        d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"
+                    ></path>
+                </g>
+            </svg>
+            <input class="input" type="search" placeholder="Escribe aquí" />
+        </div>
+        <div class="libros">
+            <article class="libro">
+                <img src="libromuszkiz1.jpg" alt="La historia de Muskiz">
+                <h3 class="nombre-libre">La historia de Muskiz</h3>
+                <p class="descripcion">No se trataba de realizar un estudio científico ni académico sobre la situación de las mujeres en esa época...</p>
+                <div class="butones-lb">
+                    <button class="prest">Prestar libro</button>
+                    <button class="log-prest"><span>🛒</span></button>
+                </div>
+            </div>
+            <div class="libro">
+                <img src="libromuskiz2.jpg" alt="Cronicas de muskiz">
+                <h3 class="nombre-libre">Las Crónicas de Muskiz</h3>
+                <p class="descripcion">En las Crónicas de Muskiz hay historia verdadera y buena literatura.</p>
+                <div class="butones-lb">
+                    <button class="prest">Prestar libro</button>
+                    <button class="log-prest"><span>🛒</span></button>
+                </div>
+            </div>
+            <div class="libro">
+                <img src="libromuskiz3.jpg" alt="Crónicas de Pobeña">
+                <h3 class="nombre-libre ">Crónicas de Pobeña</h3>
+                <p class="descripcion">El afán que me ha guiado a escribir estos relatos, estas memorias, es el de dar a conocer...</p>
+                <div class="butones-lb">
+                    <button class="prest">Prestar libro</button>
+                    <button class="log-prest"><span>🛒</span></button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Librería Muskiz. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

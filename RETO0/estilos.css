@@ -1,0 +1,166 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header, footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.navegador {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navegador li {
+  margin-right: 20px;
+}
+
+.navegador a {
+  color: white;
+  text-decoration: none;
+}
+
+.navegador a:hover {
+  color: #ccc;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.titulo-buscador {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.caja-buscador {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.buscador-txt, .input {
+  width: 100%;
+  padding: 10px 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #f3f3f4;
+  color: #0d0c22;
+  transition: 0.3s;
+}
+
+.input::placeholder {
+  color: #9e9ea7;
+}
+
+.input:focus, .input:hover {
+  border-color: rgba(0, 48, 73, 0.4);
+  background-color: #fff;
+  box-shadow: 0 0 0 4px rgb(0 48 73 / 10%);
+}
+
+.icon {
+  position: absolute;
+  left: 1rem;
+  fill: #9e9ea7;
+  width: 1rem;
+  height: 1rem;
+}
+
+.buscador-btn {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buscador-btn:hover {
+  background-color: #444;
+}
+
+.libros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1500px;
+  margin-top: 20px;
+}
+
+.libro {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.libro img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.nombre-libre {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.descripcion {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.butones-lb {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.prest, .log-prest {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  flex: 1;
+  margin: 0 5px;
+}
